@@ -1,0 +1,12 @@
+@use '../variables' as *;
+@use '../functions/' as *;
+
+:root {
+  font-family: $font-primary;
+}
+
+.container {
+  max-width: rem-calc(1280);
+  padding: 0 rem-calc(32);
+  margin: 0 auto;
+}

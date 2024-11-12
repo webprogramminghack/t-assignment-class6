@@ -1,0 +1,27 @@
+@use 'base';
+@use 'functions' as *;
+@use 'mixins' as *;
+
+.title {
+  @include typography('display-lg', 'bold');
+}
+
+.title-1 {
+  color: get-color('brand', '400');
+}
+
+.title-2 {
+  color: get-color('warning', '600');
+}
+
+.title-3 {
+  color: get-color('error', '500');
+}
+
+.title-4 {
+  color: get-color('success', '700');
+}
+
+.title-5 {
+  color: get-color('gray', '600');
+}
